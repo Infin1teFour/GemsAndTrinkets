@@ -1,6 +1,7 @@
 package com.inf.gemsandtrinkets.item;
 
 import com.inf.gemsandtrinkets.GemsAndTrinkets;
+import com.inf.gemsandtrinkets.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registry;
@@ -12,6 +13,8 @@ public class ModItems {
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+
+    public static final Item RUBY_DETECTOR = registerItem("ruby_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(GemsAndTrinkets.MOD_ID, name), item);
     }

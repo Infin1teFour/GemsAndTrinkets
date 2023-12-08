@@ -32,6 +32,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
+
+                        //Misc
+                        entries.add(ModItems.RUBY_DETECTOR);
                     }).build());
     public static void registerModItemGroups() {
         GemsAndTrinkets.LOGGER.info("Registering mod item groups for" + GemsAndTrinkets.MOD_ID);
