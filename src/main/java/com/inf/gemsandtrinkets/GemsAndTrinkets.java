@@ -1,5 +1,7 @@
 package com.inf.gemsandtrinkets;
 
+import com.inf.gemsandtrinkets.item.ModItemGroups;
+import com.inf.gemsandtrinkets.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +15,7 @@ public class GemsAndTrinkets implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 	}
 }
