@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gemsandtrinkets",
+	"version": "${version}",
+	"name": "Gems And Trinkets",
+	"description": "Mod adding a bunch of new materials and trinkets to the game!",
+	"authors": [
+		"Infin1te"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/gemsandtrinkets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.inf.gemsandtrinkets.GemsAndTrinkets"
+		],
+		"client": [
+			"com.inf.gemsandtrinkets.GemsAndTrinketsClient"
+		],
+		"fabric-datagen": [
+			"com.inf.gemsandtrinkets.GemsAndTrinketsDataGenerator"
+		]
+	},
+	"mixins": [
+		"gemsandtrinkets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
