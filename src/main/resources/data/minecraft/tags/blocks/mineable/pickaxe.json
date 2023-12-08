@@ -1,0 +1,13 @@
+{
+  "replace": "false",
+  "values": [
+    "gemsandtrinkets:ruby_ore",
+    "gemsandtrinkets:deepslate_ruby_ore",
+    "gemsandtrinkets:nether_ruby_ore",
+    "gemsandtrinkets:ruby_block",
+    "gemsandtrinkets:raw_ruby_block",
+    "gemsandtrinkets:sapphire_block",
+    "gemsandtrinkets:raw_sapphire_block"
+
+  ]
+}

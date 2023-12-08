@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sapphire",
+  "ingredients": [
+    {
+      "item": "gemsandtrinkets:sapphire_block"
+    }
+  ],
+    "result": {
+        "item": "gemsandtrinkets:sapphire",
+        "count": 9
+    }
+}

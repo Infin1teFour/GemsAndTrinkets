@@ -1,12 +1,18 @@
 {
-  "item.gemsandtrinkets.sapphire": "Sapphire",
-  "item.gemsandtrinkets.raw_sapphire": "Raw Sapphire",
-  "item.gemsandtrinkets.ruby": "Ruby",
-    "item.gemsandtrinkets.raw_ruby": "Raw Ruby",
+  "item.gemsandtrinkets.raw_ruby": "Raw Ruby",
+  "block.gemsandtrinkets.raw_ruby_block": "Block of Raw Ruby",
 
+  "item.gemsandtrinkets.ruby": "Ruby",
   "block.gemsandtrinkets.ruby_block": "Block of Ruby",
-    "block.gemsandtrinkets.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.gemsandtrinkets.ruby_ore": "Ruby Ore",
+  "block.gemsandtrinkets.nether_ruby_ore": "Nether Ruby Ore",
+  "block.gemsandtrinkets.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+
+  "item.gemsandtrinkets.sapphire": "Sapphire",
   "block.gemsandtrinkets.sapphire_block": "Block of Sapphire",
+  "item.gemsandtrinkets.raw_sapphire": "Raw Sapphire",
   "block.gemsandtrinkets.raw_sapphire_block": "Block of Raw Sapphire",
 
   "itemGroup.gemsandtrinkets": "Gems and Trinkets"

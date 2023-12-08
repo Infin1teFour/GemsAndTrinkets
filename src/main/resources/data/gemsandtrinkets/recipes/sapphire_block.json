@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "categpry": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+    "key": {
+        "#": {
+        "item": "gemsandtrinkets:sapphire"
+        }
+    },
+    "result": {
+        "item": "gemsandtrinkets:sapphire_block",
+        "count": 1
+    }
+}

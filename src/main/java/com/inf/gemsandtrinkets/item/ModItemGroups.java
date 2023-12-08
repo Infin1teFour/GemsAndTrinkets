@@ -15,11 +15,19 @@ public class ModItemGroups {
             new Identifier(GemsAndTrinkets.MOD_ID, "sapphire"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.gemsandtrinkets"))
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE)).entries((displayContext, entries) -> {
+                        //Ruby Blocks
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
 
+                        //Ruby Ores
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+
+
+                        //Sapphire Blocks
                         entries.add(ModItems.RAW_SAPPHIRE);
                         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
                         entries.add(ModItems.SAPPHIRE);

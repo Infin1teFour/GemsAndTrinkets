@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "categpry": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+    "key": {
+        "#": {
+        "item": "gemsandtrinkets:raw_ruby"
+        }
+    },
+    "result": {
+        "item": "gemsandtrinkets:raw_ruby_block",
+        "count": 1
+    }
+}
