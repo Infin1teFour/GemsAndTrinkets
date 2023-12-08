@@ -1,5 +1,6 @@
 package com.inf.gemsandtrinkets;
 
+import com.inf.gemsandtrinkets.block.ModBlocks;
 import com.inf.gemsandtrinkets.item.ModItemGroups;
 import com.inf.gemsandtrinkets.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class GemsAndTrinkets implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
