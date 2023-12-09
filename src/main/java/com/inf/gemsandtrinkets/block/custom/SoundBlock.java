@@ -2,15 +2,22 @@ package com.inf.gemsandtrinkets.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.floatprovider.UniformFloatProvider;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class SoundBlock extends Block {
     public SoundBlock(Settings settings) {
@@ -25,5 +32,11 @@ public class SoundBlock extends Block {
                 SoundCategory.BLOCKS, 0.8F,
                 UniformFloatProvider.create(1F, 2.0F).get(world.random));
         return ActionResult.SUCCESS;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+        tooltip.add(Text.translatable("tooltip.gemsandtrinkets.sound_block"));
+        super.appendTooltip(stack, world, tooltip, options);
     }
 }

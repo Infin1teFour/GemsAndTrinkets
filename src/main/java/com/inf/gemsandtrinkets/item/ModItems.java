@@ -13,7 +13,10 @@ public class ModItems {
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
+
+    public static final Item GEM_APPLE = registerItem("gem_apple", new Item(new FabricItemSettings().food(ModFoodComponents.GEM_APPLE)));
     public static final Item RUBY_DETECTOR = registerItem("ruby_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(GemsAndTrinkets.MOD_ID, name), item);
