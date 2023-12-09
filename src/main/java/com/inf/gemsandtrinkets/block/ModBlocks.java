@@ -1,6 +1,7 @@
 package com.inf.gemsandtrinkets.block;
 
 import com.inf.gemsandtrinkets.GemsAndTrinkets;
+import com.inf.gemsandtrinkets.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -32,6 +33,10 @@ public class ModBlocks {
     public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
                     FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.TARGET)));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(GemsAndTrinkets.MOD_ID, name), block);

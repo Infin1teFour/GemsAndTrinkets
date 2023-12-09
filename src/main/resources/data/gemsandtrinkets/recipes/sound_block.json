@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "categpry": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+    "key": {
+        "#": {
+        "tag": "minecraft:wool"
+        },
+        "A": {
+        "item": "gemsandtrinkets:sapphire"
+        }
+    },
+    "result": {
+        "item": "gemsandtrinkets:sound_block",
+        "count": 1
+    }
+}

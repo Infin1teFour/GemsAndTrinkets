@@ -35,6 +35,7 @@ public class ModItemGroups {
 
                         //Misc
                         entries.add(ModItems.RUBY_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
                     }).build());
     public static void registerModItemGroups() {
         GemsAndTrinkets.LOGGER.info("Registering mod item groups for" + GemsAndTrinkets.MOD_ID);
