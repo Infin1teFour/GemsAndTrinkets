@@ -3,6 +3,16 @@
   "block.gemsandtrinkets.raw_ruby_block": "Block of Raw Ruby",
   "item.gemsandtrinkets.ruby": "Ruby",
   "block.gemsandtrinkets.ruby_block": "Block of Ruby",
+  "block.gemsandtrinkets.ruby_stairs": "Ruby Stairs",
+  "block.gemsandtrinkets.ruby_slab": "Ruby Slab",
+  "block.gemsandtrinkets.ruby_wall": "Ruby Wall",
+  "block.gemsandtrinkets.ruby_fence": "Ruby Fence",
+  "block.gemsandtrinkets.ruby_fence_gate": "Ruby Fence Gate",
+  "block.gemsandtrinkets.ruby_door": "Ruby Door",
+  "block.gemsandtrinkets.ruby_trapdoor": "Ruby Trapdoor",
+  "block.gemsandtrinkets.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.gemsandtrinkets.ruby_button": "Ruby Button",
+
 
   "block.gemsandtrinkets.ruby_ore": "Ruby Ore",
   "block.gemsandtrinkets.nether_ruby_ore": "Nether Ruby Ore",

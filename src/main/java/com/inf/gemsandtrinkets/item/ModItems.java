@@ -22,6 +22,6 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(GemsAndTrinkets.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        GemsAndTrinkets.LOGGER.info("Registering mod items for" + GemsAndTrinkets.MOD_ID);
+        GemsAndTrinkets.LOGGER.info("Registering mod items for " + GemsAndTrinkets.MOD_ID);
     }
 }

@@ -63,5 +63,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //Needs Tool Level 1 (Stone)
         //getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add();
 
+        //Fences Tag
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE);
+
+        //Fence Gates Tag
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RUBY_FENCE_GATE);
+
+        //Walls Tag
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL);
+
     }
 }

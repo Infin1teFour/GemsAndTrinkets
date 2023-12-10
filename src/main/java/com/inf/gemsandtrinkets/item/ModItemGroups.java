@@ -20,6 +20,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
 
                         //Ruby Ores
                         entries.add(ModBlocks.RUBY_ORE);
@@ -40,6 +49,6 @@ public class ModItemGroups {
                         entries.add(ModItems.COAL_BRIQUETTE);
                     }).build());
     public static void registerModItemGroups() {
-        GemsAndTrinkets.LOGGER.info("Registering mod item groups for" + GemsAndTrinkets.MOD_ID);
+        GemsAndTrinkets.LOGGER.info("Registering mod item groups for " + GemsAndTrinkets.MOD_ID);
     }
 }

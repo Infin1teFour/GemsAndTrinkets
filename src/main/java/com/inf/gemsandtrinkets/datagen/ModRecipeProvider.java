@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -57,6 +58,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_SAPPHIRE,
                 RecipeCategory.DECORATIONS, ModBlocks.RAW_SAPPHIRE_BLOCK);
 
+        //Ruby Pool Recipes
+        offerPressurePlateRecipe(exporter, ModBlocks.RUBY_PRESSURE_PLATE, ModItems.RUBY);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.RUBY_WALL, ModItems.RUBY);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB, ModItems.RUBY);
+
+        createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, "ruby_stairs");
+        createFenceRecipe(ModBlocks.RUBY_FENCE, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, "ruby_fence");
+        createFenceGateRecipe(ModBlocks.RUBY_FENCE_GATE, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, "ruby_fence_gate");
+        createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, "ruby_door");
+        createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, "ruby_trapdoor");
+        offerShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModBlocks.RUBY_BLOCK, "ruby_button", 1);
+
+
+
         //Raw ruby from stone
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_RUBY, 1)
                 .pattern("###")
@@ -65,7 +90,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', Items.STONE)
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
+                .offerTo(exporter, "raw_ruby_from_stone");
 
         //Gem Apple
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GEM_APPLE, 1)
@@ -77,7 +102,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', ModItems.SAPPHIRE)
                 .input('A', Items.APPLE)
                 .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
-                .offerTo(exporter);
+                .offerTo(exporter, "gem_apple");
 
         //Gem Apple Alternate
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GEM_APPLE, 1)
@@ -89,7 +114,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', ModItems.SAPPHIRE)
                 .input('A', Items.APPLE)
                 .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
-                .offerTo(exporter);
+                .offerTo(exporter, "gem_apple_alt");
 
         //Ruby Detector
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_DETECTOR, 1)
@@ -101,7 +126,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .input('#', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter);
+                .offerTo(exporter, "ruby_detector");
 
         //Sound Block
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK, 1)
@@ -111,7 +136,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ItemTags.WOOL)
                 .input('S', ModItems.SAPPHIRE)
                 .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
-                .offerTo(exporter);
+                .offerTo(exporter, "sound_block");
 
 
     }
