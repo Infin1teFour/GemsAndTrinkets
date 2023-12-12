@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "gemsandtrinkets:block/ruby_block",
+    "side": "gemsandtrinkets:block/ruby_block",
+    "top": "gemsandtrinkets:block/ruby_block"
+  }
+}

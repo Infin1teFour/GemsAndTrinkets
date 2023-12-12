@@ -93,3 +93,7 @@ sourceSets {
 	}
 }
 tasks.withType(Copy).all { duplicatesStrategy 'exclude' }
+
+sourcesJar {
+	duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+}

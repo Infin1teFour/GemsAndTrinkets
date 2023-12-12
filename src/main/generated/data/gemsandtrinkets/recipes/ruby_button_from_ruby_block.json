@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "ruby_button",
+  "ingredients": [
+    {
+      "item": "gemsandtrinkets:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "gemsandtrinkets:ruby_button"
+  }
+}

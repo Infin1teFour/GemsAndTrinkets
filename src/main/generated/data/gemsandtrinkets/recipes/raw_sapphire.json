@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "gemsandtrinkets:raw_sapphire_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "gemsandtrinkets:raw_sapphire"
+  }
+}

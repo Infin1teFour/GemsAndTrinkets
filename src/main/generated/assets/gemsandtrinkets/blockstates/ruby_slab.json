@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gemsandtrinkets:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "gemsandtrinkets:block/ruby_block"
+    },
+    "type=top": {
+      "model": "gemsandtrinkets:block/ruby_slab_top"
+    }
+  }
+}

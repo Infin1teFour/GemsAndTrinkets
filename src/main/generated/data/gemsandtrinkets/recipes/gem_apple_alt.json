@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "gemsandtrinkets:sapphire"
+    },
+    "G": {
+      "item": "minecraft:emerald"
+    },
+    "R": {
+      "item": "gemsandtrinkets:ruby"
+    }
+  },
+  "pattern": [
+    "RBR",
+    "GAG",
+    "RBR"
+  ],
+  "result": {
+    "item": "gemsandtrinkets:gem_apple"
+  }
+}

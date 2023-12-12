@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "gemsandtrinkets:block/ruby_block"
+  }
+}
