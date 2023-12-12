@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "gemsandtrinkets:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RR ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "gemsandtrinkets:ruby_hoe"
+  }
+}

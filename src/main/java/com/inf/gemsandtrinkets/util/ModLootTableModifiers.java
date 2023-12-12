@@ -12,9 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
     private static final Identifier DESERT_TEMPLE_ID =
-            new Identifier("minecraft", "chests/desert_pyramid.json");
+            new Identifier("minecraft", "chests/desert_pyramid");
     private static final Identifier IRON_GOLEM_ID =
-            new Identifier("minecraft", "entities/iron_golem.json");
+            new Identifier("minecraft", "entities/iron_golem");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {

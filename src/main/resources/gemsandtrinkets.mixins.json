@@ -3,7 +3,7 @@
 	"package": "com.inf.gemsandtrinkets.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+
 
 	],
 	"client": [
@@ -11,6 +11,7 @@
 		"ModelLoaderMixin",
 		"ItemRendererMixin"
 	],
+
 	"injectors": {
 		"defaultRequire": 1
 	}

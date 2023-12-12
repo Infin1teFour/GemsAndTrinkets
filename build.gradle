@@ -65,9 +65,6 @@ jar {
 	}
 	duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
 }
-jar {
-	duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
-}
 
 // configure the maven publication
 publishing {
