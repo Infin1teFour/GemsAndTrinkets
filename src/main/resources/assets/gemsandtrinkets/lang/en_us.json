@@ -23,10 +23,22 @@
   "item.gemsandtrinkets.raw_sapphire": "Raw Sapphire",
   "block.gemsandtrinkets.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "item.gemsandtrinkets.ruby_pickaxe": "Ruby Pickaxe",
+  "item.gemsandtrinkets.ruby_axe": "Ruby Axe",
+  "item.gemsandtrinkets.ruby_shovel": "Ruby Shovel",
+  "item.gemsandtrinkets.ruby_hoe": "Ruby Hoe",
+  "item.gemsandtrinkets.ruby_sword": "Ruby Sword",
+
+   "item.gemsandtrinkets.ruby_helmet": "Ruby Helmet",
+  "item.gemsandtrinkets.ruby_chestplate": "Ruby Chestplate",
+  "item.gemsandtrinkets.ruby_leggings": "Ruby Leggings",
+  "item.gemsandtrinkets.ruby_boots": "Ruby Boots",
+
   "item.gemsandtrinkets.ruby_detector": "Ruby Detector",
   "block.gemsandtrinkets.sound_block": "Sound Block",
   "item.gemsandtrinkets.gem_apple": "Gem Apple",
   "item.gemsandtrinkets.coal_briquette": "Coal Briquette",
+  "item.gemsandtrinkets.ruby_staff": "Ruby Staff",
 
   "tooltip.gemsandtrinkets.ruby_detector_1": "Allows you to detect ruby ore beneath the block",
   "tooltip.gemsandtrinkets.ruby_detector_2": "it's used on. Has a max range of 64 blocks below",

@@ -42,11 +42,27 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
 
+                        //Ruby Tools
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_HOE);
+                        entries.add(ModItems.RUBY_SWORD);
+
+                        //Ruby Armor
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+
+
                         //Misc
                         entries.add(ModItems.RUBY_DETECTOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModItems.GEM_APPLE);
                         entries.add(ModItems.COAL_BRIQUETTE);
+                        entries.add(ModItems.RUBY_STAFF);
+
                     }).build());
     public static void registerModItemGroups() {
         GemsAndTrinkets.LOGGER.info("Registering mod item groups for " + GemsAndTrinkets.MOD_ID);

@@ -1,6 +1,8 @@
 package com.inf.gemsandtrinkets.datagen;
 
 import com.inf.gemsandtrinkets.block.ModBlocks;
+import com.inf.gemsandtrinkets.block.custom.SoundBlock;
+import com.inf.gemsandtrinkets.item.ModItems;
 import com.inf.gemsandtrinkets.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -42,7 +44,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //getOrCreateTagBuilder(BlockTags.AXE_MINEABLE).add();
 
         //Hoe Mineable
-        //getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add();
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.SOUND_BLOCK);
+
+        //Needs Tool Level 5
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
+                .add(ModBlocks.SOUND_BLOCK);
 
         //Needs Tool Level 4 (Netherite)
         //getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4"))).add();
