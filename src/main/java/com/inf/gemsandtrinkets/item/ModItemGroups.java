@@ -5,6 +5,7 @@ import com.inf.gemsandtrinkets.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -62,6 +63,19 @@ public class ModItemGroups {
                         entries.add(ModItems.GEM_APPLE);
                         entries.add(ModItems.COAL_BRIQUETTE);
                         entries.add(ModItems.RUBY_STAFF);
+
+                    }).build());
+
+    public static final ItemGroup GEMS_AND_TRINKETS_MINERALS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(GemsAndTrinkets.MOD_ID, "ruby"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.gemsandtrinketsMinerals"))
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.SAPPHIRE);
+                        entries.add(Items.EMERALD);
+                        entries.add(ModItems.ROSE_QUARTZ);
+                        entries.add(ModItems.TOPAZ);
+
 
                     }).build());
     public static void registerModItemGroups() {
