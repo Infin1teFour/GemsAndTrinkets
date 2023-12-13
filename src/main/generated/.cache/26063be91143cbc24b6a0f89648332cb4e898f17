@@ -1,9 +1,9 @@
-// 1.20.4	2023-12-12T15:09:42.6570885	Gems And Trinkets/Tags for minecraft:block
-a40f82846ee1f19494810022b8bc8f038f2a0bda data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.4	2023-12-13T11:39:25.477816	Gems And Trinkets/Tags for minecraft:block
+04b99d58f422cf3304e099b13ceca62edfbf5095 data\minecraft\tags\blocks\fences.json
 6fbd7631b8b5d53fdb6a2ce796cbeb7095e3fcc5 data\minecraft\tags\blocks\walls.json
+155b572067c4c3826991a2e3840555e3b4dd4da4 data\minecraft\tags\blocks\mineable\pickaxe.json
 46e888753efedc88e22005894c2c4ff4a964bacf data\minecraft\tags\blocks\mineable\hoe.json
 e4a87b01c2f972315384d34cc905a1cb7a03bf54 data\minecraft\tags\blocks\fence_gates.json
-04b99d58f422cf3304e099b13ceca62edfbf5095 data\minecraft\tags\blocks\fences.json
-46e888753efedc88e22005894c2c4ff4a964bacf data\fabric\tags\blocks\needs_tool_level_5.json
 d192a0bee28554672ca1c2fec031b1421872361f data\gemsandtrinkets\tags\blocks\metal_detector_detectable_blocks.json
-155b572067c4c3826991a2e3840555e3b4dd4da4 data\minecraft\tags\blocks\mineable\pickaxe.json
+a40f82846ee1f19494810022b8bc8f038f2a0bda data\minecraft\tags\blocks\needs_iron_tool.json
+46e888753efedc88e22005894c2c4ff4a964bacf data\fabric\tags\blocks\needs_tool_level_5.json

@@ -3,7 +3,9 @@ package com.inf.gemsandtrinkets;
 import com.inf.gemsandtrinkets.block.ModBlocks;
 import com.inf.gemsandtrinkets.item.ModItemGroups;
 import com.inf.gemsandtrinkets.item.ModItems;
+import com.inf.gemsandtrinkets.util.ModCustomTrades;
 import com.inf.gemsandtrinkets.util.ModLootTableModifiers;
+import com.inf.gemsandtrinkets.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -23,5 +25,7 @@ public class GemsAndTrinkets implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 300);
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
+		ModVillagers.registerVillagers();
 	}
 }

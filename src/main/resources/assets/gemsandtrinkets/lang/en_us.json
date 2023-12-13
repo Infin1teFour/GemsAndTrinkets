@@ -40,6 +40,8 @@
   "item.gemsandtrinkets.coal_briquette": "Coal Briquette",
   "item.gemsandtrinkets.ruby_staff": "Ruby Staff",
 
+  "entity.minecraft.villager.jeweler": "Jeweler",
+
   "tooltip.gemsandtrinkets.ruby_detector_1": "Allows you to detect ruby ore beneath the block",
   "tooltip.gemsandtrinkets.ruby_detector_2": "it's used on. Has a max range of 64 blocks below",
   "tooltip.gemsandtrinkets.sound_block": "Plays a sound when right-clicked",
